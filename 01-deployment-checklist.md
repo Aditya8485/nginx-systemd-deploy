@@ -9,3 +9,5 @@
 - [ ] HTTPS certificate installed; renewal tested
 - [ ] Logs, backups, monitoring and rollback documented
 
+## Useful commands
+
