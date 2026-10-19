@@ -11,3 +11,11 @@
 
 ## Useful commands
 
+```bash
+sudo nginx -t
+sudo systemctl reload nginx
+sudo systemctl status demo-api --no-pager
+journalctl -u demo-api -f
+curl -i http://127.0.0.1:8000/health
+curl -I https://example.com/health
+```
