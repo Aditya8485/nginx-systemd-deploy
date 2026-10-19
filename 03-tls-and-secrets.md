@@ -4,3 +4,4 @@ Obtain certs using a maintained ACME client (Certbot is one option), after DNS a
 
 Do not paste certificate private keys into Git. Keep application secrets in a protected environment file, secret manager or secure deployment mechanism. Don't log access tokens.
 
+Test `/health` from localhost and from the public domain. Add rate limits and proxy timeouts when appropriate to your application.
